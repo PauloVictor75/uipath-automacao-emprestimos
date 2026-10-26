@@ -21,7 +21,7 @@ Robô desenvolvido no **UiPath Studio** que lê uma planilha de solicitações d
 ## Estrutura do workflow
 
 ```
-AutomacaoExtracaoDadosFaturas
+AutomacaoEmprestimosUiBank
 ├── Ler Planilha Loan Quotes                      -> dtLoanQuotes
 └── Chrome UiBank-Welcome (https://uibank.uipath.com/login)
     ├── Get Username/Password                     -> Credencial (SistemaFaturas)
@@ -40,7 +40,7 @@ AutomacaoExtracaoDadosFaturas
     └── Gravar Mensagens na Planilha              <- dtLoanQuotes
 ```
 
-O código completo está em [`AutomacaoExtracaoDadosFaturas.xaml`](AutomacaoExtracaoDadosFaturas.xaml).
+O código completo está em [`AutomacaoEmprestimosUiBank.xaml`](AutomacaoEmprestimosUiBank.xaml).
 
 ## Regras de negócio
 
